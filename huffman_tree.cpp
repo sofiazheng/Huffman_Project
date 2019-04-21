@@ -145,7 +145,7 @@ std::string huffman_tree::encode(const std::string& file_name) const {
 			coded += encodeMap.find(c)->second;
 		}
 	}
-	cout << coded<<endl;
+	//cout << coded<<endl;
 	return coded;
 }
 
@@ -185,7 +185,7 @@ std::string huffman_tree::decode(const std::string& string_to_decode) const {
 	for (auto const& s : dv) {
 		decoded += s;
 	}
-	cout << decoded<<endl;
+	//cout << decoded<<endl;
 	return decoded;
 	//return "";
 }
